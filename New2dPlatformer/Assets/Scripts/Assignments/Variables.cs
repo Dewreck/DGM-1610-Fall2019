@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Variables : MonoBehaviour
 {
-   string name = "Derek";
+   string firstname = "Derek";
    int age = 23;
    float height = 6.2f;
    bool married = false;
@@ -15,7 +15,7 @@ public class Variables : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Debug.Log("First Name: " + name);
+        Debug.Log("First Name: " + firstname);
         Debug.Log("Age: " + age);
         Debug.Log("Height: " + height);
         Debug.Log("Marital Status: " + married);
