@@ -6,7 +6,7 @@ public class Superhero : MonoBehaviour
 {
     string hero = "Fulminator";
     int rank = 6;
-    string group = ", S Class";
+    string group = "S Class";
     float power = 9000.1f;
     bool active = true;
 
@@ -15,7 +15,7 @@ public class Superhero : MonoBehaviour
     void Start()
     {
         Debug.Log("Hero Name: " + hero);
-        Debug.Log("Hero Ranking: " + rank + group);
+        Debug.Log("Hero Ranking: " + rank + ", " + group);
         Debug.Log("Power Level: " + power);
         Debug.Log("Active Duty Status: " + active);
     }
