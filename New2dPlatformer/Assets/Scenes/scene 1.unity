@@ -392,7 +392,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d7a990f98266cd848ae70381a5e83625, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  firstnum: 55
+  firstnum: 50
   secondnum: 5
 --- !u!114 &723250410
 MonoBehaviour:
@@ -406,5 +406,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: af66d6e989fe3c94dac98e21a25198e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  num1: 9
-  num2: 5
+  num1: 11
+  num2: 6
