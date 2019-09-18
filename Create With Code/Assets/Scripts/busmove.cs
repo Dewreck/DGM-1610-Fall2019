@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PropSpin : MonoBehaviour
+public class busmove : MonoBehaviour
 {
-
+    public float speed = 20;
     // Start is called before the first frame update
     void Start()
     {
@@ -14,7 +14,11 @@ public class PropSpin : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //this makes the propeller spin
-        transform.Rotate(Vector3.forward * 10);
+        transform.Translate(Vector3.forward * Time.deltaTime * speed);
+    }
+
+    void StopBus()
+    {
+        speed = 0;
     }
 }
