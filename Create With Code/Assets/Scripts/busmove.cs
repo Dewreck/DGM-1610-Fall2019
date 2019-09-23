@@ -17,8 +17,4 @@ public class busmove : MonoBehaviour
         transform.Translate(Vector3.forward * Time.deltaTime * speed);
     }
 
-    void StopBus()
-    {
-        speed = 0;
-    }
 }
