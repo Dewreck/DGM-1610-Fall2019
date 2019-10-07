@@ -13,6 +13,7 @@ public class SpawnManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        // this starts the function on game startup
         InvokeRepeating("SpawnRandomAnimal", startDelay, spawnInterval);
     }
 

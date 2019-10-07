@@ -15,7 +15,7 @@ public class DetectCollisions : MonoBehaviour
     {
         
     }
-
+    // this destroys the projectile and animal prefab when their hitboxes collide
     private void OnTriggerEnter(Collider other)
     {
         Destroy(gameObject);
